@@ -1,0 +1,129 @@
+#hi{
+    height: 90px;
+    width: 80px;
+    float: left;
+    margin: 0;
+    animation: hi 1s ease ;
+    
+  }
+  @keyframes hi {
+    0%{
+        scale: 0%;
+    }
+    50%{
+        scale: 50%;
+    }
+    100%{
+        scale: 100%;
+    }
+    
+  }
+  #header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0.5px 20px 0.5px 0.5px;
+   margin: 0%;
+   background-color: white;
+   opacity: 50%;
+   
+  }
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: navbar 1s ease ;
+    
+  }
+  @keyframes navbar {
+    0%{
+        scale: 0%;
+    }
+    50%{
+        scale: 50%;
+    }
+    100%{
+        scale: 100%;
+    }
+    
+  }
+  #navbar li{
+    list-style: none;
+    padding: 0px 20px;
+  
+  }
+  #navbar li a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  #po{
+    height: auto;
+    width: 80px;
+  
+  }
+  #he{
+    font-size: 60px;
+    font-style: oblique;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    animation: he 1s ease-out ;
+  }
+  @keyframes he {
+    0%{
+        scale: 0%;
+    }
+    50%{
+        scale: 50%;
+    }
+    100%{
+        scale: 100%;
+    }
+    
+  }
+  .dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .MENU {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .MENU:hover .dropdown-content {display: block;}
+  
+  .MENU:hover .dropbtn {background-color: black}
+  
+  
+  
+  
+  
+    #NA{
+        height: 400px;
+        width: 400px;
+        
+    }

@@ -1,0 +1,68 @@
+body{
+    background-image: url("cafe.jpg");
+    background-size: cover;
+}  
+h1{
+    font-size: 500%;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: inherit;
+    color: #9cf1f1;
+    text-align: center;
+    padding: 20% 0 0 0;
+}  
+#ani {
+    animation: ani 1s ease ;
+}
+@keyframes ani {
+    0%{
+        scale: 0%;
+    }
+    50%{
+        scale: 50%;
+    }
+    100%{
+        scale: 100%;
+    }
+    
+}
+h2{
+    text-align: center;
+    font-size: 500%;
+    
+}
+#me {
+    animation: ani 1s ease ;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+@keyframes ani {
+    0%{
+        scale: 0%;
+    }
+    50%{
+        scale: 50%;
+    }
+    100%{
+        scale: 100%;
+    }
+    
+}
+#No {
+    align-items: center;
+    width: 1%;
+    height: 5%;
+    padding: 35px;
+    display: flexbox;
+    justify-content: center;
+    margin-left: 48%;
+    margin-top: 1%;
+    font-size: 70%;
+    font-weight: 200;
+    border-radius: 25px;
+    border-color: transparent;
+    text-decoration: none;
+    background-image: url("cup.png");
+    background-size: cover;
+
+}
